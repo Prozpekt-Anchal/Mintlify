@@ -270,19 +270,6 @@ Created for Web Dev Cohort 2026 - HTML & CSS Assignment
 
 **Submission Date**: February 7, 2026
 
----
-
-## 📸 Screenshots
-
-*(Add screenshots of your final output here)*
-
-1. Hero Section
-2. Documentation Preview
-3. Features Section
-4. Enterprise Section
-5. Full Page Overview
-
----
-
 **License**: Educational project - for assignment purposes only
+
 
