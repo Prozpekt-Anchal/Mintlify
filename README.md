@@ -1,3 +1,5 @@
+<img width="1440" height="900" alt="Screenshot 2026-02-07 at 11 47 34 AM" src="https://github.com/user-attachments/assets/fc1052c3-7428-42ed-b8e0-93b1826ccea3" />
+
 # Mintlify Documentation Website - HTML & CSS Recreation
 
 A desktop-first documentation-style website inspired by Mintlify, built purely with HTML and CSS for the Web Dev Cohort 2026 assignment.
@@ -283,3 +285,4 @@ Created for Web Dev Cohort 2026 - HTML & CSS Assignment
 ---
 
 **License**: Educational project - for assignment purposes only
+
