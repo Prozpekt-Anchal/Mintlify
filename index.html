@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintlify - Modern Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- 1. Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#" class="logo">
+                    <img src="images/mintlify-logo.svg" alt="Mintlify" class="logo-full">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#docs">Docs</a></li>
+                    <li><a href="#components">Components</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#login" class="nav-login">Log in</a>
+                <a href="#signup" class="btn-primary">Start for free</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Beautiful documentation that<br>
+                    <span class="gradient-text">converts users</span>
+                </h1>
+                <p class="hero-description">
+                    Build the documentation you've always wanted. Beautiful out of the box,
+                    easy to maintain, and optimized for user engagement.
+                </p>
+                <div class="hero-cta">
+                    <input type="email" placeholder="Enter your email" class="email-input">
+                    <button class="btn-cta">Get Started</button>
+                </div>
+                <p class="hero-subtext">Start for free. No credit card required.</p>
+            </div>
+            <div class="hero-illustration">
+                <div class="illustration-wrapper">
+                    <div class="doc-preview">
+                        <div class="doc-header">
+                            <div class="doc-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="doc-content">
+                            <div class="doc-sidebar-mini"></div>
+                            <div class="doc-main-mini"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Documentation Preview Section -->
+    <section class="doc-preview-section">
+        <div class="doc-container">
+            <div class="doc-sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Getting Started</h3>
+                    <ul class="sidebar-menu">
+                        <li class="active">Introduction</li>
+                        <li>Quick Start</li>
+                        <li>Installation</li>
+                        <li>Configuration</li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Guides</h3>
+                    <ul class="sidebar-menu">
+                        <li>Writing Content</li>
+                        <li>Custom Components</li>
+                        <li>Navigation</li>
+                        <li>Styling</li>
+                        <li>Deployment</li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Advanced</h3>
+                    <ul class="sidebar-menu">
+                        <li>API Reference</li>
+                        <li>Analytics</li>
+                        <li>SEO</li>
+                        <li>Custom Domain</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="doc-main-content">
+                <div class="content-card">
+                    <div class="card-icon purple">📘</div>
+                    <h3>Quick Start Guide</h3>
+                    <p>Get your documentation up and running in minutes with our intuitive setup process.</p>
+                </div>
+                <div class="content-card">
+                    <div class="card-icon blue">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for speed with automatic code splitting and lazy loading.</p>
+                </div>
+                <div class="content-card">
+                    <div class="card-icon green">🎨</div>
+                    <h3>Beautiful by Default</h3>
+                    <p>Stunning design out of the box with full customization options.</p>
+                </div>
+                <div class="content-card">
+                    <div class="card-icon orange">🔍</div>
+                    <h3>Powerful Search</h3>
+                    <p>Built-in search that helps users find exactly what they need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Trusted By / Logos -->
+    <section class="trusted-by">
+        <div class="container">
+            <p class="trusted-title">Trusted by the best teams</p>
+            <div class="logo-grid">
+                <div class="company-logo">
+                    <div class="logo-placeholder">STRIPE</div>
+                </div>
+                <div class="company-logo">
+                    <div class="logo-placeholder">VERCEL</div>
+                </div>
+                <div class="company-logo">
+                    <div class="logo-placeholder">REPLICATE</div>
+                </div>
+                <div class="company-logo">
+                    <div class="logo-placeholder">ANTHROPIC</div>
+                </div>
+                <div class="company-logo">
+                    <div class="logo-placeholder">CLERK</div>
+                </div>
+                <div class="company-logo">
+                    <div class="logo-placeholder">RESEND</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Feature Highlights -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-row">
+                <div class="feature-text">
+                    <h2>Write in Markdown, publish to the web</h2>
+                    <p>Focus on content, not formatting. Write documentation in Markdown and we'll handle the rest. Your
+                        docs will look beautiful on every device.</p>
+                    <ul class="feature-list">
+                        <li>✓ MDX support with React components</li>
+                        <li>✓ Code syntax highlighting</li>
+                        <li>✓ Automatic table of contents</li>
+                        <li>✓ Version control friendly</li>
+                    </ul>
+                </div>
+                <div class="feature-visual">
+                    <div class="code-preview">
+                        <div class="code-header">
+                            <span class="code-tab">documentation.mdx</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code># Getting Started
+
+Welcome to our documentation!
+
+## Installation
+
+```bash
+npm install mintlify
+```
+
+Start building amazing docs.</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-row reverse">
+                <div class="feature-text">
+                    <h2>Collaborate with your team</h2>
+                    <p>Keep everyone on the same page. Built for teams with features like version history, collaborative
+                        editing, and granular permissions.</p>
+                    <ul class="feature-list">
+                        <li>✓ Real-time collaboration</li>
+                        <li>✓ Role-based access control</li>
+                        <li>✓ Change history tracking</li>
+                        <li>✓ Comment and review system</li>
+                    </ul>
+                </div>
+                <div class="feature-visual">
+                    <div class="collab-preview">
+                        <div class="user-avatar purple">JD</div>
+                        <div class="user-avatar blue">SR</div>
+                        <div class="user-avatar green">MK</div>
+                        <div class="collab-text">3 team members editing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Intelligent Assistant / UI Preview -->
+    <section class="ai-assistant">
+        <div class="container">
+            <div class="ai-header">
+                <h2>AI-powered documentation assistant</h2>
+                <p>Help users find answers instantly with our intelligent search and Q&A system</p>
+            </div>
+            <div class="ai-mockup">
+                <div class="mockup-window">
+                    <div class="mockup-header">
+                        <div class="mockup-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="mockup-title">Ask anything about your docs</div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="chat-bubble user">How do I configure custom domains?</div>
+                        <div class="chat-bubble assistant">
+                            <div class="typing-indicator">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <p>To configure a custom domain, go to Settings → Domains and follow these steps:</p>
+                            <ol>
+                                <li>Add your custom domain</li>
+                                <li>Update DNS records with your provider</li>
+                                <li>Verify domain ownership</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Enterprise Features Section -->
+    <section class="enterprise">
+        <div class="container">
+            <div class="enterprise-header">
+                <h2>Built for enterprise</h2>
+                <p>Security, compliance, and support you can trust</p>
+            </div>
+            <div class="enterprise-grid">
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">🔒</div>
+                    <h3>SOC 2 Compliant</h3>
+                    <p>Enterprise-grade security with SOC 2 Type II certification and regular audits.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">🛡️</div>
+                    <h3>SAML SSO</h3>
+                    <p>Single sign-on integration with your identity provider for seamless access control.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">📊</div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Deep insights into how users interact with your documentation.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">⚙️</div>
+                    <h3>Custom Integrations</h3>
+                    <p>Connect with your existing tools and workflows through our API.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">🌐</div>
+                    <h3>99.9% Uptime SLA</h3>
+                    <p>Reliable hosting with guaranteed uptime and global CDN distribution.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="enterprise-icon">💬</div>
+                    <h3>Priority Support</h3>
+                    <p>Dedicated support team with guaranteed response times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Case Studies / Customer Stories -->
+    <section class="case-studies">
+        <div class="container">
+            <h2 class="section-title">Loved by developer teams</h2>
+            <div class="case-grid">
+                <div class="case-card">
+                    <div class="case-image stripe"></div>
+                    <div class="case-content">
+                        <h3>Stripe</h3>
+                        <p>"Mintlify helped us create beautiful, comprehensive documentation that our developers
+                            actually want to use. The search functionality alone saved us countless hours."</p>
+                        <div class="case-author">
+                            <div class="author-avatar">JS</div>
+                            <div class="author-info">
+                                <div class="author-name">Jane Smith</div>
+                                <div class="author-role">Head of Developer Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-image vercel"></div>
+                    <div class="case-content">
+                        <h3>Vercel</h3>
+                        <p>"The migration was seamless and the results were immediate. Our documentation looks
+                            professional and our users can find what they need faster than ever."</p>
+                        <div class="case-author">
+                            <div class="author-avatar">MJ</div>
+                            <div class="author-info">
+                                <div class="author-name">Michael Johnson</div>
+                                <div class="author-role">VP of Engineering</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-image replicate"></div>
+                    <div class="case-content">
+                        <h3>Replicate</h3>
+                        <p>"Mintlify scales with us. As we've grown from a small team to serving thousands of
+                            developers, our docs have stayed fast and beautiful."</p>
+                        <div class="case-author">
+                            <div class="author-avatar">SK</div>
+                            <div class="author-info">
+                                <div class="author-name">Sarah Kim</div>
+                                <div class="author-role">Co-founder & CTO</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Final Call-To-Action -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to build beautiful docs?</h2>
+                <p>Join thousands of teams who trust Mintlify for their documentation</p>
+                <div class="cta-buttons">
+                    <a href="#start" class="btn-cta-large">Start for free</a>
+                    <a href="#demo" class="btn-secondary-large">Schedule a demo</a>
+                </div>
+                <p class="cta-note">No credit card required • Free 14-day trial</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="images/mintlify-logo.svg" alt="Mintlify" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description">Beautiful documentation that converts users</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#changelog">Changelog</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#docs">Documentation</a></li>
+                        <li><a href="#guides">Guides</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#showcase">Showcase</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#security">Security</a></li>
+                        <li><a href="#gdpr">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mintlify. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#twitter">Twitter</a>
+                    <a href="#github">GitHub</a>
+                    <a href="#discord">Discord</a>
+                    <a href="#linkedin">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
